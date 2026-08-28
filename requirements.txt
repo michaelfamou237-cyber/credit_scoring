@@ -4,20 +4,20 @@
 # ==========================================
 
 # Manipulation et calculs
-numpy==2.4.6
-pandas==3.0.3
-scipy==1.17.1
+numpy
+pandas
+scipy
 
 # Machine Learning
-scikit-learn == 1.9.0
-lightgbm==4.6.0
+scikit-learn
+lightgbm
 
 # Visualisation
-matplotlib==3.10.9
-seaborn==0.13.2
+matplotlib
+seaborn
 
 # Statistiques et tests
-statsmodels==0.14.6
+statsmodels
 
 # API et déploiement
 fastapi
@@ -26,9 +26,9 @@ python-multipart
 pydantic
 
 # Sauvegarde et chargement
-joblib==1.5.3
+joblib
 pickle                  
-json5==0.15.0
+json5
 # Encodage des variables
 category_encoders
 
@@ -36,5 +36,5 @@ category_encoders
 python-dotenv
 
 # Notebook et développement
-jupyter
-ipython
+#jupyter
+#ipython
