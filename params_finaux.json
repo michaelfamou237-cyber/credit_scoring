@@ -1,0 +1,1 @@
+{"num_leaves": 15, "max_depth": 4, "min_child_samples": 30, "reg_alpha": 2, "reg_lambda": 1, "feature_fraction": 0.8, "learning_rate": 0.05, "n_estimators": 150, "bagging_fraction": 0.5, "bagging_freq": 1, "random_state": 42, "verbose": -1}

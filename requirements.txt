@@ -1,0 +1,40 @@
+# ==========================================
+# Dépendances pour le projet Scoring Crédit
+# TOUS les packages utilisés ensemble
+# ==========================================
+
+# Manipulation et calculs
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+
+# Machine Learning
+scikit-learn == 1.9.0
+lightgbm==4.6.0
+
+# Visualisation
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# Statistiques et tests
+statsmodels==0.14.6
+
+# API et déploiement
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# Sauvegarde et chargement
+joblib==1.5.3
+pickle                  
+json5==0.15.0
+# Encodage des variables
+category_encoders
+
+# Variables d'environnement
+python-dotenv
+
+# Notebook et développement
+jupyter
+ipython

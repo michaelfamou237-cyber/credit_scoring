@@ -1,0 +1,11 @@
+num__revenu_demandeur
+num__montant_pret
+num__pers_en_charge
+cat__credit_historique_1.0
+cat__zone_residence_Semiurban
+cat__zone_residence_Urban
+num__duree_pret
+cat__zone_residence_Rural
+cat__Education_Graduate
+ratio_endettement
+ratio_endettement_menage
