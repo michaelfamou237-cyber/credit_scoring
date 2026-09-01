@@ -46,6 +46,9 @@ formulaire.addEventListener("submit", async function (event) {
             alert("Le champ '" + champ + "' doit contenir un nombre valide.");
             return;
         }
+        if (payload[champ] < 0){
+            alert("le champ '"+champ+ "'doit contenir un nombre valide.");
+        }
     }
 
     try {
