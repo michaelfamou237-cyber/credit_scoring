@@ -1,0 +1,12 @@
+
+.venv/
+myvenv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.pynb_checkpoints/
+notebooks/
+test/
+catboost_info/
+data/
