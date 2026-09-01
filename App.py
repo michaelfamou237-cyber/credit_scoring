@@ -98,6 +98,7 @@ async def predict(data:CreditData):
     montant_pret = float(df['montant_pret'].iloc[0])
     revenu_demandeur = float(df['revenu_demandeur'].iloc[0])
     revenu_codemmandeur = float(df['revenu_codemmandeur'].iloc[0])
+    pers_en_charge = int(df['pers_en_charge'].iloc[0])
     duree_pret = float(df['duree_pret'].iloc[0])
 
     # 2. validation metier
@@ -113,6 +114,10 @@ async def predict(data:CreditData):
         raise HTTPException(
             status_code = 400,
             detail = "le revenu du codemandeur ne peut pas etre negatif")
+    if pers_en_charge < 0:
+        raise HTTPException(
+            status_code=400,
+            detail="la durée du prêt ne peut pas etre negatif")
     if duree_pret < 0:
         raise HTTPException(
             status_code = 400,
