@@ -30,9 +30,4 @@ pydantic
 # Encodage des variables
 category_encoders
 
-# Variables d'environnement
-python-dotenv
 
-# Notebook et développement
-jupyter
-ipython
