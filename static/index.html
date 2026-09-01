@@ -83,34 +83,34 @@
                 <div class="space-y-5">
                     <div>
                         <label for="revenu_demandeur" class="block text-sm mb-2">Revenu du demandeur</label>
-                        <input id="revenu_demandeur" name="revenu_demandeur" type="number" step="any" required
+                        <input id="revenu_demandeur" name="revenu_demandeur" type="number" step="any" min="0" required
                                placeholder="Ex : 250000"
                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
                         <p id="apercu_revenu_demandeur" class="text-sm text-slate-400 mt-1"></p>
                     </div>
                     <div>
                         <label for="revenu_codemmandeur" class="block text-sm mb-2">Revenu du co-demandeur</label>
-                        <input id="revenu_codemmandeur" name="revenu_codemmandeur" type="number" step="any" required
+                        <input id="revenu_codemmandeur" name="revenu_codemmandeur" type="number" step="any" min="0" required
                                placeholder="Ex : 300000"
                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3">
                         <p id="apercu_revenu_codemmandeur" class="text-sm text-slate-400 mt-1"></p>
                     </div>
                     <div>
                         <label for="montant_pret" class="block text-sm mb-2">Montant du prêt</label>
-                        <input id="montant_pret" name="montant_pret" type="number" step="any" required
+                        <input id="montant_pret" name="montant_pret" type="number" step="any" min="0" required
                                placeholder="Ex : 400000"
                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3">
                         <p id="apercu_montant_pret" class="text-sm text-slate-400 mt-1"></p>
                     </div>
                     <div>
                         <label for="pers_en_charge" class="block text-sm mb-2">Personnes à charge</label>
-                        <input id="pers_en_charge" name="pers_en_charge" type="number" required
+                        <input id="pers_en_charge" name="pers_en_charge" type="number" min="0" required
                                placeholder="Ex : 3"
                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3">
                     </div>
                     <div>
                         <label for="duree_pret" class="block text-sm mb-2">Durée du prêt (jours)</label>
-                        <input id="duree_pret" name="duree_pret" type="number" step="any" required
+                        <input id="duree_pret" name="duree_pret" type="number" step="any" min="0" required
                                placeholder="Ex : 360"
                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3">
                     </div>
