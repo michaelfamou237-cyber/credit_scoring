@@ -17,6 +17,8 @@ Le projet suit une démarche complète de Data Science allant de la préparation
 des données jusqu'à l'évaluation finale du modèle sur un jeu de test
 totalement indépendant.
 
+il est testable sur ce lien : https://credit-scoring-7rro.onrender.com
+
 ----------------------------------------------------------------------------------------------
 
 # Objectifs
