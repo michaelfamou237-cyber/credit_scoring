@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 10000
 
 # 7. Lancer l'application sur le port 10000
-CMD ["uvicorn", "App:app", "--host", "0.0.0.0", "--port", "10000"]
+CMD uvicorn App:app --host 0.0.0.0 --port ${PORT:-10000}
